@@ -9,13 +9,13 @@ This is a living document. Dates are targets, not promises.
 **Goal:** Establish the project, flash the device, understand the landscape.
 
 - [X] Acquire OnePlus 6T
-- [ ] Flash postmarketOS with Phosh
+- [X] Flash postmarketOS with ~~Phosh~~ GNOME for now - may try out phosh 
 - [ ] Daily drive as secondary phone for 2+ weeks
 - [ ] Document every friction point in the issue tracker
-- [ ] Set up public repo with build scripts
-- [ ] Publish README, GOOD_ENOUGH, ROADMAP, CONTRIBUTING
-- [ ] Set up project blog / dev log
-- [ ] Join postmarketOS Matrix channel, begin engaging with community
+- [X] Set up public repo with build scripts
+- [X] Publish README, GOOD_ENOUGH, ROADMAP, CONTRIBUTING
+- [X] Set up project blog / dev log
+- [X] Join postmarketOS Matrix channel, begin engaging with community
 
 **Exit criteria:** Device is running, friction points are catalogued, project is public.
 
@@ -30,7 +30,7 @@ This is a living document. Dates are targets, not promises.
 - [ ] Mobile data stable with manual 4G/5G toggle
 - [ ] Wi-Fi auto-reconnect working
 - [ ] Battery life reaching 10+ hours (target 12)
-- [ ] Waydroid installed and running
+- [X] Waydroid installed and running
 - [ ] WhatsApp functional in Waydroid with notification bridging
 - [ ] Basic power management tuning
 - [ ] First reproducible build script for the custom image
