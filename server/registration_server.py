@@ -54,6 +54,10 @@ def init_db():
     logger.info("Database initialised")
 
 
+# Initialise DB on startup (works with both gunicorn and direct run)
+init_db()
+
+
 @app.route("/v1/device", methods=["POST"])
 @limiter.limit("5 per hour")
 def register_device():
@@ -127,5 +131,4 @@ def health():
 
 
 if __name__ == "__main__":
-    init_db()
     app.run(host="0.0.0.0", port=5000, debug=False)
