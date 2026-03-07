@@ -28,7 +28,7 @@ This is a living document. Dates are targets, not promises.
 - [ ] Phone calls reliable on 4G — no drops, clear audio
 - [ ] SMS/MMS send and receive including group messages
 - [ ] Mobile data stable with manual 4G/5G toggle
-- [ ] Wi-Fi auto-reconnect working
+- [X] Wi-Fi auto-reconnect working
 - [ ] Battery life reaching 10+ hours (target 12)
 - [X] Waydroid installed and running
 - [ ] WhatsApp functional in Waydroid with notification bridging
@@ -44,7 +44,7 @@ This is a living document. Dates are targets, not promises.
 **Goal:** Something a patient, tech-curious person could use as their main phone.
 
 - [ ] Camera improvements — sub-2-second shutter, usable daylight photos
-- [ ] Bluetooth audio reliable with common headphones and speakers
+- [X] Bluetooth audio reliable with common headphones and speakers
 - [ ] Fingerprint reader working consistently
 - [ ] GPS locking within 30 seconds, accurate navigation via OsmAnd
 - [ ] Notifications arriving promptly for all key apps

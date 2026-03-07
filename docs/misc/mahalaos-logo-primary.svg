@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="512" height="512">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1FAF5C" />
+      <stop offset="100%" stop-color="#0C5E2D" />
+    </linearGradient>
+    <clipPath id="bg-clip">
+      <rect x="4" y="4" width="92" height="92" rx="22" />
+    </clipPath>
+  </defs>
+  <rect x="4" y="4" width="92" height="92" rx="22" fill="url(#bg-grad)" />
+  <ellipse cx="50" cy="26" rx="38" ry="22" fill="rgba(255,255,255,0.05)" clip-path="url(#bg-clip)" />
+  <path d="M22 78 L22 48 L50 68 L78 48 L78 78" fill="none" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M38 40 Q50 30 62 40" fill="none" stroke="#E8C76A" stroke-width="2.5" stroke-linecap="round" opacity="0.85" />
+  <path d="M32 32 Q50 20 68 32" fill="none" stroke="#D4A843" stroke-width="2.5" stroke-linecap="round" opacity="0.6" />
+  <path d="M26 24 Q50 10 74 24" fill="none" stroke="#D4A843" stroke-width="2" stroke-linecap="round" opacity="0.35" />
+</svg>

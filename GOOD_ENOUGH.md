@@ -1,4 +1,4 @@
-# Good Enough Definition
+02# Good Enough Definition
 
 This document defines what "good enough" means for v1. Every feature is measured against a clear pass/fail criteria. When every Must Have row is green, we ship.
 
@@ -12,8 +12,7 @@ These are non-negotiable for v1. If any of these fail, it's not ready.
 
 | # | Function | Good Enough | Not Acceptable |
 |---|----------|-------------|----------------|
-| 1 | Phone Calls | Reliable on 4G/5G, clear audio both ways, no echo, call history works | Dropped calls, robotic audio, needs restart to receive calls |
-| 2 | SMS / MMS | Send and receive reliably including group MMS, delivery confirmation | Messages failing silently, group MMS broken, messages arriving out of order |
+restart SMS / MMS | Send and receive reliably including group MMS, delivery confirmation | Messages failing silently, group MMS broken, messages arriving out of order |
 | 3 | WhatsApp (via Waydroid) | Send/receive text and media, voice and video calls work, notifications arrive within 30 seconds | Manual checking required, no notifications, calls failing |
 | 4 | Facebook Messenger (via Waydroid) | Send/receive text and media, notifications arrive | Non-functional or requires constant manual checking |
 | 5 | Web Browser | Firefox loads sites smoothly, video playback works, no frequent crashes | Constant crashes, broken rendering, unusably slow |

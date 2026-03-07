@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: mahalaos-registration
+    runtime: python
+    rootDir: server
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn registration_server:app
+    plan: free
+    envVars:
+      - key: MAHALA_DB_PATH
+        value: /var/lib/mahalaos/registrations.db
+    disk:
+      name: mahalaos-data
+      mountPath: /var/lib/mahalaos
+      sizeGB: 1
